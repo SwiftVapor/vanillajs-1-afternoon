@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,14 +9,37 @@
 <body>
   <header><h1>Poker Cards</h1></header>
     <main>
-        <section id='Diomnds'></section><span>A</span><span>♦</span><span>A</span></section>
-        <section id= 'Clubs'><span>A</span><span>♣</span><span>A</span></section>
-        <section id= 'Hearts'><span>A</span><span>♥</span><span>A</span></section>
-        <section id= 'Spades'><span>A</span><span>♠</span><span>A</span></section>
+        <section id='diamonds'><span>A</span><span>♦</span><span>A</span></section>
+        <section id= 'clubs'><span>A</span><span>♣</span><span>A</span></section>
+        <section id= 'hearts'><span>A</span><span>♥</span><span>A</span></section>
+        <section id= 'spades'><span>A</span><span>♠</span><span>A</span></section>
     </main>
     <input id='idInput' type='text' placeholder="Set ID">
     <input id='colorInput' type='text' placeholder="Set Color">
-    <button id='button' onclick="setCard"></button>
+    <button id='button' onclick="setCard()">Edit Cards</button>
     <script src="index.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Styles</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <header>Poker Cards</header>
+    <main>
+        <section id='diamonds'><span>A</span><span>♦</span><span>A</span></section>
+        <section id='clubs'><span>A</span><span>♣</span><span>A</span></section>
+        <section id='hearts'><span>A</span><span>♥</span><span>A</span></section>
+        <section id='spades'><span>A</span><span>♠</span><span>A</span></section>
+    </main>
+    <input id='idInput' type="text" placeholder='Set ID'>
+    <input id='colorInput' type="text" placeholder='Set Color'>
+    <button id='btn' onclick='setCard()'>Edit Card</button>
+    <script src='./index.js'></script>
 </body>
 </html>
